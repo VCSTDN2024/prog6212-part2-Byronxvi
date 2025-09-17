@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CMCS_WPF/1.0.0": {
+        "runtime": {
+          "CMCS_WPF.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CMCS_WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
