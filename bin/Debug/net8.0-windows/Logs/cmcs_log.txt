@@ -1,0 +1,8 @@
+2025-10-22 12:25:21 [INFO] Claim 1 added (Lecturer: Bob )
+2025-10-22 12:31:49 [INFO] Claim 2 added (Lecturer: tom )
+2025-10-22 13:13:44 [INFO] Claim 3 added (Lecturer: bobby)
+2025-10-22 13:14:17 [INFO] Claim 3 approved by Coordinator
+2025-10-22 13:19:54 [INFO] Claim 4 added (Lecturer: Byron )
+2025-10-22 13:20:05 [INFO] Claim 4 approved by Coordinator
+2025-10-22 13:28:39 [INFO] Claim 5 added (Lecturer: Raees)
+2025-10-22 13:28:54 [INFO] Claim 5 rejected by Coordinator

@@ -1,0 +1,29 @@
+<Window x:Class="CMCS_WPF.Views.DetailsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Claim Details" Height="450" Width="600">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Claim Details" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+            <TextBlock Text="{Binding LecturerName}" FontSize="14"/>
+            <TextBlock Text="Total: " />
+            <TextBlock Text="{Binding TotalAmount}"/>
+            <TextBlock Text="Status:" Margin="0,8,0,0"/>
+            <TextBlock Text="{Binding Status}" FontWeight="Bold"/>
+            <TextBlock Text="History:" Margin="0,8,0,0"/>
+            <ListBox ItemsSource="{Binding History}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding ChangedAt, StringFormat=yyyy-MM-dd HH:mm}" FontSize="10" Foreground="Gray"/>
+                            <TextBlock Text="{Binding Role}" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding Status}" />
+                            <TextBlock Text="{Binding Comment}" FontStyle="Italic"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Button Content="Open File" Click="OpenFile_Click" Margin="0,10,0,0" />
+        </StackPanel>
+    </Grid>
+</Window>
